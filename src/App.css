@@ -1,0 +1,96 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    
+    background-color: rgb(42, 106, 165);
+}
+
+.row{
+    background-color: rgba(136, 141, 237, 0.389);
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+   background-color: rgba(238, 43, 43, 0.689);
+   padding: 30px;
+   border-radius: 30%;
+   height: 400px;
+   width: 500px;
+   margin-top: 10px;
+   color: white;
+}
+.question{  
+    text-align: center;
+    color: black;
+  } .quote{ 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+li{ 
+    list-style-type: upper-alpha;
+    margin: 7px;
+    font-size: 15px;
+    background-color: black;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Results{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    border: 5px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Results>h2,p{ 
+    margin: 20px;
+    color: white;
+}
+.Results>button{ 
+    width: 150px;
+    text-align: center;
+    border: none;
+    padding: 10px 0px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.color{
+    color: yellow;
+    font-weight: bolder;
+}
+
+.title{
+    position: absolute;
+    top: 180px;
+    color: chartreuse;
+    margin-top: 0px;
+    font-weight: bolder;
+    padding: 20px;
+   
+}
